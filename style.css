@@ -13,9 +13,8 @@
   gap: 16px;
   margin-left: 120px;
   margin-right: 120px;
-}
+  justify-content: space-between;
 
-.container {
 }
 
 main {
@@ -29,6 +28,8 @@ main {
 #input-buscar {
   width: 100px;
   height: 32px;
+  flex-grow: 1;
+  margin: 0 40px;
 }
 
 #btn-sesion {
