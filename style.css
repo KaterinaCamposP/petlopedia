@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background-color: #d3d3d3;
+  align-items: center;
+  display: flex;
+  padding: 14px 24px;
+  gap: 16px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+.container {
+}
+
+main {
+  margin: 24px 120px;
+  /* margin-right: 1000px; */
+  display: flex;
+  border: 1px solid black;
+  gap: 16px;
+}
+
+#input-buscar {
+  width: 100px;
+  height: 32px;
+}
+
+#btn-sesion {
+  background-color: #1e90ff;
+  color: white;
+  width: 100px;
+  height: 32px;
+  cursor: pointer;
+}
+
+article {
+  border: 1px solid black;
+  padding: 16px;
+}
+.article-gato {
+}
+
+.article-golden {
+}
+
+aside {
+  width: 200px;
+  border: 1px solid black;
+  padding: 16px;
+}
+
+#agregar-btn {
+  background-color: #008000;
+  color: white;
+  cursor: pointer;
+}
+
+/* NO ALCANCÉ A DEJARLO MAS BONITO :(*/
